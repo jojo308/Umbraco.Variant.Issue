@@ -1,0 +1,13 @@
+{
+    "$schema": "../../../umbraco-package-schema.json",
+    "name": "Custom Anchor Editor",
+    "version": "1.0.0",
+    "extensions": [
+      {
+        "name": "anchoreditor.entrypoint",
+        "alias": "anchoreditor.EntryPoint",
+        "type": "entryPoint",
+        "js": "/App_Plugins/CustomAnchorEditor/index.js"      
+    }
+    ]
+  }
